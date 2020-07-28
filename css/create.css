@@ -1,0 +1,13 @@
+.upload-group { display: flex; flex-direction: column; }
+.upload-group label { font-size: 18px; margin: 5px 0; }
+.top-album { display: flex; justify-content: center; padding: 2em; }
+.top-album input, .top-album select { height: 32px; padding: 5px 7px; border: 0; width: 390px; background: #e0e0e0; outline: none; font-size: 15px; }
+.select__music { padding-top: 20px; padding-bottom: 80px; margin: 0 30px; border-top: 2px solid; }
+.top { display: flex; justify-content: space-between; align-items: center; }
+.top h3 { margin: 0; }
+.music-list { display: grid; width: max-content; margin: 0 auto; grid-template-columns: 380px 380px 380px; }
+.music-box { margin-bottom: 15px; }
+.music-image span { display: block; background-size: cover; }
+.music-info { width: 100%; display: flex; justify-content: center; flex-direction: column; padding-left: 10px; }
+.album-image { display: grid; grid-template-columns: 100px 100px; width: 206px; max-height: 200px; overflow-y: auto; }
+.no__audio { display: flex; justify-content: center; padding: 100px; }

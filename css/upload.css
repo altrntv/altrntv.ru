@@ -1,0 +1,16 @@
+.form { display: flex; justify-content: center; padding: 50px 0; }
+.upload-form { margin: 0; }
+.flex-info { display: flex; }
+.upload-group { display: flex; flex-direction: column; }
+.upload-group label { font-size: 18px; margin: 5px 0; }
+.upload-group span { font-size: 16px; }
+.upload-group input, .upload-group select { height: 32px; padding: 5px 7px; border: 0; width: 390px; font-size: 15px; }
+.upload-button { padding: 1em; margin: 1em; }
+.upload-button input[type=file] { outline: 0; opacity: 0; pointer-events: none; user-select: none; position: absolute; }
+.upload-button .label { width: 120px; height: 120px; display: flex; justify-content: center; flex-direction: column; border: 2px dashed grey; padding: 1.2em; transition: border 300ms ease; cursor: pointer; text-align: center; }
+.upload-button .label i { display: block; font-size: 42px; padding-bottom: 16px; }
+.upload-button .label i, .upload-button .label .title { color: grey; transition: 200ms color; text-overflow: ellipsis; overflow: hidden; }
+.upload-button .label:hover { border: 2px solid; }
+.preview { margin-top: 20px; display: flex; justify-content: center; }
+img.thumb { width: 80px; border: 1px solid black; padding: 5px; }
+.submit { display: flex; margin: 0 32px; }

@@ -1,0 +1,12 @@
+.settings__content hr { border: 1px solid; }
+.input-group input, .input-group select { width: 450px; }
+.settings__content { padding: 30px 50px; }
+.settings__content h2 { margin: 0 0 18px; }
+.settings-menu h3 { margin: 0; margin-bottom: 10px; }
+.settings-menu { display: grid; grid-template: "a b"; }
+form.change { width: max-content; }
+.submit { margin-top: 30px; display: flex; justify-content: flex-end; }
+.settings__box { width: 570px; }
+.settings__url .input-group { display: block; width: 450px; }
+.warning { display: none; margin: 0; margin-bottom: -25px;}
+.success { display: block; }

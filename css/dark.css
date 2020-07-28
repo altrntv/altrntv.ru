@@ -1,0 +1,86 @@
+html, body { background: #212121; color: #E0E0E0; }
+
+.release__block, 
+.music__list, 
+.popular__left,
+.profile__user,
+.music,
+.artists,
+.settings__content,
+.genre__content,
+.search__content,
+.upload__content,
+.create__content{ background: #282828; }
+
+.genres__block,
+.popular__right { background: #333; }
+
+.release__info a,
+.box-song .nr-name,
+.box-artist .nr-artist,
+.item__h4,
+.genres__block a,
+.list__item a,
+.comment-song a,
+.review-top a,
+.user-score-login, 
+.my-score-login,
+.artist__block span { color: #e0e0e0; }
+
+.slogan p::after,
+.release__body h2:before,
+.item__h4::before,
+.item__h4.bg__purple::before,
+.item__h4.bg__dsblue::before,
+.item__h4.before__custom::before { background: #e0e0e0; }
+
+.genres__block a:hover { color: #f50; }
+
+.box a:hover .nr-name { background: white; color: black; }
+.nr-artist:hover { background: #f50; color: black; }
+
+.release__info p,
+.score { color: #a7a7a7; }
+
+.stars i.fas.fa-star { color: gold; }
+
+.button { border: 2px solid black; background: black; color: white; }
+
+.button:hover {
+    box-shadow: -20px 20px 0 -17px #282828, 20px -20px 0 -17px #282828, 20px 20px 0 -20px black, 0 0 0 2px #f50;
+    border-color: #282828;
+    color: #f50;
+}
+
+.music__list hr,
+.music__menu,
+.profile__music,
+.review__block,
+.list__item a,
+.music__left,
+.score__block,
+.user-score-block,
+.settings__content hr,
+.genre__left,
+.select__music { border-color: #444; }
+
+.create-album:hover, 
+.upload-music:hover,
+.upload-button .label:hover,
+.upload-button .label:hover i,
+.upload-button .label:hover .title {
+    border-color: #f50;
+    color: #f50;
+}
+
+.write-review-block textarea { background-color: #333; color: #e0e0e0; }
+.score-button { color: #a7a7a7; text-shadow: 1px 1px #111; }
+.explicit { filter: invert(0.7); }
+.warning { color: #e74c3c; }
+.input-group input, 
+.input-group select,
+.upload-group input, 
+.upload-group select { background: #333; color: #e0e0e0; }
+
+.min-footer,
+.min-footer div { background: black; }

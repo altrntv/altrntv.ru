@@ -1,0 +1,254 @@
+.cap {
+    padding-top: 48px;
+}
+
+.cap__image {
+    background: linear-gradient(-45deg, #39393a, #f45a3b);
+    width: 1240px;
+    margin: 0 auto;
+    height: 260px;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+}
+
+.profile__user {
+    width: 1240px;
+    margin: auto;
+}
+
+.profile-header {
+    margin-bottom: 20px;
+}
+
+.profile {
+    padding: 30px;
+    display: flex;
+}
+
+.profile-avatar {
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+}
+
+.profile-avatar span {
+    width: 200px;
+    height: 200px;
+}
+
+.profile-info h1 {
+    margin: 0;
+    background: black;
+    color: white;
+    padding: 0 12px;
+}
+
+.user-gold {
+    font-weight: bold;
+    background: #ffd700;
+    padding: 0 12px;
+    text-align: right;
+}
+
+/*upload image*/
+.upload-image {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    opacity: 0;
+    color: black;
+}
+
+.upload-image:hover {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.upload-image input[type=file] {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    position: absolute;
+    z-index: -10;
+}
+
+.upload-image:hover label {
+    padding: 15px;
+    background: #FFC312;
+    border-radius: 50%;
+}
+
+.upload-image:hover label:hover {
+    cursor: pointer;
+}
+
+.upload-image .fas.fa-image, .upload-image .fas.fa-check {
+    font-size: 40px;
+}
+
+.upload-image-button {
+    position: absolute;
+    padding: 16px;
+    border-radius: 50%;
+    border: 0;
+    background: #6ab04c;
+    display: none;
+    cursor: pointer;
+}
+
+.upload-image-button.active {
+    display: block;
+}
+
+.upload-image.active {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#reset-image {
+    position: absolute;
+    border-radius: 50%;
+    border: 0;
+    padding: 15px;
+    background: #ff3838;
+    z-index: 2;
+    cursor: pointer;
+    display: none;
+}
+
+.fas.fa-times {
+    font-size: 25px;
+    width: 25px;
+}
+
+#reset-image.active {
+    display: block;
+}
+
+/*music*/
+.content-music {
+    display: flex;
+}
+
+.profile__music {
+    box-sizing: border-box;
+    width: 70%;
+    padding: 0 30px;
+    border-right: 2px solid;
+    margin-bottom: 40px;
+}
+
+.music__menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid;
+    margin-bottom: 30px;
+}
+
+.music__menu li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.music__menu li.menu-item.active {
+    background: black;
+    color: white;
+    border-bottom: 2px solid black;
+    margin-bottom: -2px;
+}
+
+.box {
+    margin-bottom: 40px;
+}
+
+.menu-item a {
+    cursor: pointer;
+}
+
+.create-album, .upload-music {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: 2px dashed gray;
+    cursor: pointer;
+    color: gray;
+}
+
+.create-album span, .upload-music span {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.create-album i, .upload-music i {
+    font-size: 20px;
+}
+
+.more {
+    width: 30%;
+    height: max-content;
+    margin-bottom: 40px;
+    position: sticky;
+    top: 48px;
+}
+
+/*nomusic*/
+.nomusic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+i.fas.fa-address-card {
+    font-size: 100px;
+}
+
+.nomusic span {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/*more*/
+.stats, .comments {
+    margin: 20px 25px;
+}
+
+span.icon.basic i {
+    font-size: 22px;
+     margin-right: 10px;
+}
+
+span.icon i {
+    margin-right: 16px;
+}
+
+span.icon {
+    display: flex;
+    align-items: center;
+}
+
+.review__block {
+    font-size: 14px;
+    border-bottom: 1px solid;
+    padding: 6px 2px;
+}
+
+.comment-song, .comment-text {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: normal;
+}
+
+.comment-song a { text-decoration: underline; }

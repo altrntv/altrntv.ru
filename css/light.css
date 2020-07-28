@@ -1,0 +1,93 @@
+html, body { background: #d4d4d4; color: black; }
+
+.release__block, 
+.genres__block,
+.profile__user,
+.music,
+.artists,
+.settings__content,
+.genre__content,
+.search__content,
+.upload__content,
+.create__content { background: white; }
+
+.music__list { background: #833471; }
+
+.popular__left { background: darkslateblue; }
+
+.popular__right,
+.slogan p::after,
+.release__body h2:before { background: black; }
+
+.item__h4 { color: #FCE3C5; }
+.item__h4.bg__purple { color: black; }
+.item__h4::before { background: white; }
+.item__h4.bg__purple::before { background: #833471; }
+.item__h4.bg__dsblue::before { background: darkslateblue; }
+.item__h4.before__custom::before { background: black; }
+
+.release__info a,
+.release__body .nr-name,
+.release__body .nr-artist,
+.list__item a,
+.comment-song a,
+.review-top a,
+.user-score-login, 
+.my-score-login,
+.artist__block span { color: black; }
+
+.music__list .nr-name, 
+.music__list .nr-artist { color: white; }
+
+.box a:hover .nr-name { background: black; color: white; }
+.nr-artist:hover { background: black; color: white; }
+
+.release__info p,
+.score,
+.stars i.fas.fa-star { color: #333; }
+
+.button { border: 2px solid black; background: black; color: white; }
+
+.button:hover {
+    box-shadow: -20px 20px 0 -17px white, 20px -20px 0 -17px white, 20px 20px 0 -20px black, 0 0 0 2px #f50;
+    border-color: white;
+    color: #f50;
+}
+
+.music__list hr { border-color: #a56a97; }
+
+.genres__block a { color: black; }
+.genres__block a:hover { color: #f50; }
+
+.music__menu,
+.profile__music,
+.review__block,
+.list__item a,
+.music__left,
+.score__block,
+.user-score-block,
+.settings__content hr,
+.genre__left,
+.select__music {
+    border-color: #d4d4d4;
+}
+
+.create-album:hover, 
+.upload-music:hover,
+.upload-button .label:hover,
+.upload-button .label:hover i,
+.upload-button .label:hover .title {
+    border-color: black;
+    color: black;
+}
+
+.write-review-block textarea { background-color: #e2e2e2; color: #212121; }
+.score-button { color: #333; text-shadow: 1px 1px #222; }
+.warning { color: #cf0000; }
+.input-group input, 
+.input-group select,
+.upload-group input, 
+.upload-group select { background: #e0e0e0; }
+
+.min-footer,
+.min-footer div { background: #b4b4b4; }
